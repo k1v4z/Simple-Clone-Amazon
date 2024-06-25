@@ -1,11 +1,14 @@
 import React from 'react'
+import Header from './components/Header'
+import GridProduct from './components/GridProduct'
 
-const page = () => {
+const HomePage = () => {
   return (
     <div>
-      
+      <Header/>
+      <GridProduct/>
     </div>
   )
 }
 
-export default page
+export default HomePage
