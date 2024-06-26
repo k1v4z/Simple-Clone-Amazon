@@ -1,0 +1,52 @@
+.right__section{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.orders__text{
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 14px;
+}
+.return__text{
+    display: block;
+    font-family: Arial;
+    color: white;
+}
+.cart__icon{
+    width: 40px;
+}
+.cart__text{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+.cart__link{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.cart__quantity{
+    color: rgb(240, 136, 4);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    position: absolute;
+    top:0;
+    left: 24px;
+    text-align: center;
+}
+
+.header__link:hover{
+    border: 1px solid white;
+}
+.header__link{
+    display: inline-block;
+    padding: 4px 4px;
+    text-decoration: none;
+}

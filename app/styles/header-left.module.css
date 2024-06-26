@@ -1,0 +1,22 @@
+.left__section{
+    width: 140px;
+    text-align: center;
+    align-items: center;
+}
+
+.amazon__logo{
+    width: 100%;
+    padding-top: 4px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.header__link:hover{
+    border: 1px solid white;
+}
+
+.header__link{
+    display: inline-block;
+    padding: 4px 4px;
+    text-decoration: none;
+}
