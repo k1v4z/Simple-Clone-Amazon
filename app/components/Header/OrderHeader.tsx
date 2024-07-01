@@ -10,10 +10,10 @@ const OrderHeader = () => {
                 <div className={styles.date}>24 June</div>
             </div>
             <div className={styles.order__total}>
-                <div className={styles.order__total_label}>
-                    Total:
+                <div className={styles.order__total__label}>
+                    Total
                 </div>
-                <div className={styles.price}>$$12</div>
+                <div className={styles.price}>$12</div>
             </div>
             </div>
                 <div className={styles.right}>
