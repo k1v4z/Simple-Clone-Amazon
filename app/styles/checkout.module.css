@@ -1,0 +1,239 @@
+.checkout__header{
+    background-color: white;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    padding-left: 50px;
+    padding-right: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+}
+.checkout__left__section{
+    width: 140px;
+}
+.amazon__logo{
+    width: 100px;
+    padding-top: 4px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.back__to__amazon{
+    color: rgb(0, 113, 133);
+    font-size: 23px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Roboto,Arial;
+    font-weight: 550;
+}
+.check__middle__section{
+    font-family: Roboto,Arial;
+    font-weight: 450;
+    color: black;
+    font-size: 23px;
+    flex: 1;
+    text-align: center;
+}
+.checkout__product{
+    margin-top: 141px;
+    display: flex;
+    justify-content: center;
+}
+.page__title{
+    font-family: Roboto,Arial;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 18px;
+    padding-left: 70px;
+}
+.delivery__date{
+    font-family: Roboto,Arial;
+    color: rgb(0, 118, 0);
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+.product__img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.cart__item__grid{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    column-gap: 25px;
+}
+.checkout__grid {
+    display: grid;
+    /* Here, 1fr means the first column will take
+       up the remaining space in the grid. */
+    grid-template-columns: 825px;
+    column-gap: 12px;
+    /* Use align-items: start; to prevent the elements
+       in the grid from stretching vertically. */
+    align-items: start;
+}
+
+.product__name{
+    font-family: Roboto,Arial;
+    font-weight: 700;
+}
+.product__price{
+    font-weight: 700;
+    font-family: Roboto,Arial;
+    color: rgb(155, 5, 5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.quantity{
+    font-family: Roboto,Arial;
+    display: flex;
+    gap: 5px;
+}
+
+.quantity span{
+    font-family: Roboto,Arial;
+}
+
+.update, .delete{
+    color: rgb(14, 105, 224);
+    cursor: pointer;
+}
+.update:hover, .delete:hover, .save__quantity__link:hover{
+    color: rgb(155, 5, 5);
+}
+.delivery__title{
+    font-weight: 700;
+    font-family: Robot,Arial;
+}
+.option{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.option div{
+    margin-left: 5px;
+}
+.delivery__date__option{
+    font-family: Roboto,Arial;
+    color: rgb(92, 152, 92);
+    font-weight: 600;
+    font-size: 16px;
+}
+.delivery__price{
+    font-family: Roboto,Arial;
+    color: gray;
+}
+.radio__choice{
+    width: 20px;
+    height: 20px;
+}
+.lock__icon{
+    height: 100%;
+    width: 100%;
+}
+.cart__item__container{
+    margin-left: 90px;
+    border: 1px solid rgb(231, 231, 231);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.payment__summary{
+    margin-left: 20px;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px 10px;
+    height: 100%;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: block;
+}
+.payment__summary div{
+    font-family: Roboto,Arial;
+}
+.payment__title{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.payment__row, .payment__row__subtotal,
+.payment__row__total, .payment__row__estimate{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    margin-bottom: 10px;
+}
+.payment__row__estimate{
+    border-bottom: 1px solid rgb(231, 231, 231);
+    padding-bottom: 10px;
+}
+.title__total, .money__total{
+    color: rgb(204, 5, 5);
+    font-family: Roboto,Arial;
+    font-weight: 700;
+}
+.order__button{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    padding: 12px 100px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-family: Roboto,Arial;
+}
+.money__shipping{
+    border-bottom: 1px solid rgb(231, 231, 231);
+    padding-bottom: 5px ;
+}
+.quantity__input{
+    width: 30px;
+}
+.save__quantity__link{
+    color: rgb(14, 105, 224);
+    cursor: pointer;
+}
+.quantity__input, .save__quantity__link{
+    display: none;
+}
+.is__input__quantity{
+    display: initial;
+}
+.save{
+    display: initial;
+}
+.is__update{
+    display: none;
+}
+.view__products__button{
+    display: initial;
+}
+.no__product{
+    margin-left: 70px;
+    font-family: Roboto,Arial;
+}
+.view__products__button{
+    font-family: Roboto,Arial;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: rgb(33, 33, 33);
+    background-color: rgb(255, 216, 20);
+    border: 1px solid rgb(252, 210, 0);
+    border-radius: 8px;
+    cursor: pointer;
+}

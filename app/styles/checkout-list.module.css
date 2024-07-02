@@ -1,0 +1,22 @@
+.checkout__product{
+    margin-top: 141px;
+    display: flex;
+    justify-content: center;
+}
+.page__title{
+    font-family: Roboto,Arial;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 18px;
+    padding-left: 70px;
+}
+.checkout__grid {
+    display: grid;
+    /* Here, 1fr means the first column will take
+       up the remaining space in the grid. */
+    grid-template-columns: 825px;
+    column-gap: 12px;
+    /* Use align-items: start; to prevent the elements
+       in the grid from stretching vertically. */
+    align-items: start;
+}
