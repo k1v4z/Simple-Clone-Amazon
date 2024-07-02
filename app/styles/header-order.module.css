@@ -1,0 +1,26 @@
+.order__date__label, .order__total__label, .order__id, .product__name{
+    font-weight: 600;
+}
+
+.order__header{
+    display: grid;
+    height: 70px;
+    align-items: center;
+    grid-template-columns: 1fr 400px;
+    background-color: rgb(244, 244, 244);
+    border-bottom: 1px solid rgb(205, 201, 201);
+}
+
+.left{
+    display: flex;
+    margin-left: 20px;
+}
+
+.order__total{
+    margin-left: 45px;
+    
+}
+
+.right{
+    margin-left: 50px;
+}
