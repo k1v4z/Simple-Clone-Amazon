@@ -1,0 +1,13 @@
+.order__container{
+    width: 850px;
+    margin-top: 20px;
+    border: 1px solid rgb(205, 201, 201);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.order__information__grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+}

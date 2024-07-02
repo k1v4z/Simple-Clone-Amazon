@@ -1,0 +1,13 @@
+.order__flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page__title{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 23px;
+    justify-items: left;
+}
